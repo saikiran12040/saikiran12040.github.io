@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -310,11 +310,66 @@
             </div>
         </section>
         <!------------------------------------------qualification-------------->
-        
+        <!----------------------------------projects---------------------->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+            <span class="section_subtitle">Most recent work</span>
+            <div class="portfolio_container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-----------------------projects 1-------------->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/DeskTime.png" alt="" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">DeskTime</h3>
+                            <p class="portfolio_description">DeskTime allows teams, managers, and freelancers to measure time spent on tasks and projects. It is used in many industries for settling up with hourly workers and billing clients for work.</p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-----------------------projects 2-------------->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/Rentomojo.png" alt="" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">RentoMojo</h3>
+                            <p class="portfolio_description">Rentomojo is an online rental solution for all the furnishing needs including furniture, furnishings, home appliances and bikes.</p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-----------------------projects 3-------------->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="assets/img/naturebasket.png" alt="" class="portfolio_img">
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Nature's Basket</h3>
+                            <p class="portfolio_description">Nature's Basket is an Indian grocery delivery chain of retail stores focused in gourmet food. It has a range of organic food, imported ingredients and exotic foods.</p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-----Add arrows------>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+      
+                <!-----add pagination-->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section> 
+
 
         
     </main>
-    
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
