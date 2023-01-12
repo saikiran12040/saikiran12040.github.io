@@ -84,5 +84,19 @@ let swiper = new Swiper(".portfolio_container", {
       clickable:true,
     },
     // mousewheel: true,
-    // keyboard: true,
+    // keyboard: true,  
   });
+
+//   github stats
+
+GitHubCalendar(".calendar", "saikiran12040");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "saikiran12040", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "saikiran12040", {
+       proxy (saikiran12040) {
+         return fetch(`https://your-proxy.com/github?user=${saikiran12040}`)
+       }
+    }).then(r => r.text())
