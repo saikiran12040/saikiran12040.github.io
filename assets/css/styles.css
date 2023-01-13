@@ -377,6 +377,28 @@ body.dark-theme{
     margin-bottom:var(--mb-2-5);
 }
 
+.about_info{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:var(--mb-2-5);
+}
+
+.about_info-title{
+    font-size:var(--h2-font-size);
+    font-weight:var(--font-semi-bold);
+    color:var(--title-color);
+}
+
+.about_info-name{
+    font-size:var(--smaller-font-size);
+}
+
+.about_info-title,
+.about_info-name{
+    display:block;
+    text-align:center;
+}
+
 .about_buttons{
     display:flex;
     justify-content:center;
@@ -405,7 +427,7 @@ body.dark-theme{
     margin-right:var(--mb-0-75);
 }
 
-.skills_icon{
+.skills_title{
     font-size:var(--h3-font-size);
 }
 
@@ -724,7 +746,7 @@ body.dark-theme{
 ::-webkit-scrollbar{
     width:.60rem;
     background-color:var(--scroll-bar-color);
-    border: radius 0.5rem;
+    border-radius: .5rem;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -882,7 +904,7 @@ body.dark-theme{
         background-color:var(--first-color-second);
         border-radius:1rem;
         padding:3rem 2.5rem 0;
-        grid: template columns 1fr;
+        grid-template-columns:1fr max-content;
         column-gap:3rem;
     }
     .project_data{
