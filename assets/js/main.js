@@ -137,23 +137,23 @@ GitHubCalendar(".calendar", "saikiran12040");
     window.addEventListener('scroll',scrollUp)
 
     /*=============dark light theme===========*/
-    const themeButton=document.getElementById('theme-button')
-    const darkTheme='dark-theme'
-    const iconThme='uil-sum'
+    var themeButton=document.getElementById('theme-button')
+    var darkTheme='dark-theme'
+    var iconTheme='uil-sun'
 
     //previously selected topic(if user selected)
-    const selectedTheme=localStorage.getItem('seledted-theme')
-    const selectedIcon=localStorage.getItem('selected-icon')
+    var selectedTheme=localStorage.getItem('selected-theme')
+    var selectedIcon=localStorage.getItem('selected-icon')
 
     //we obtain the current theme that the interface has by validating the dark-theme class
-    const getCurrentTheme=()=>document.body.classList.contains(darkTheme) ? 'dark' : 'light'
-    const getCurrentIcon=()=>themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
+    var getCurrentTheme=()=>document.body.classList.contains(darkTheme) ? 'dark' : 'light'
+    var getCurrentIcon=()=>themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
 
     //we validate if the user previously chose a topic
     if(selectedTheme){
         //id thw validation is fulfilled ,we ask what the issue was to know if we activated 
-        document.body.classList[selectedTheme==='dark' ? 'add' :'remove'](darkTheme)
-        themeButton.classList[selectedIcon==='uil-moon' ? 'add' : 'remove'](iconTheme)
+        document.body.classList[selectedTheme === 'dark' ? 'add' :'remove'](darkTheme)
+        themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
     }
     //activate/deactivate the theme manually with the button
     themeButton.addEventListener('click',()=>{
