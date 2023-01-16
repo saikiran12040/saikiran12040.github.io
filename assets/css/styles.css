@@ -349,9 +349,10 @@ body.dark-theme{
     display:inline-block;
     background-color:var(--first-color);
     color:#FFF;
-    padding:1rem;
+    padding:.3rem;
     border-radius:.5rem;
-    font-weight:var(--font-medium);
+    font-weight:var(--small-font-size);
+    margin-top: 10px;
 }
 
 .button:hover{
