@@ -226,6 +226,9 @@ img {
   line-height: 1.5;
   margin-bottom: 30px;
   text-align:center;
+  display: inline-block;
+  /* Optional: set a width for the paragraph to limit its width */
+  max-width: 80%;
 }
 
 .button {
