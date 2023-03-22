@@ -225,7 +225,7 @@ img {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 30px;
-  text-align:center;
+  text-align:justify;
   display: inline-block;
   /* Optional: set a width for the paragraph to limit its width */
   max-width: 80%;
@@ -253,7 +253,7 @@ img {
   width: 50%;
   /* text-align: right; */
   display:grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(4,1fr);
   margin-top: 15px;
 }
 
@@ -281,7 +281,7 @@ img {
   height: 60%;
 }
 
-.home_img {
+.home-img {
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -304,13 +304,15 @@ img {
   .home_social {
     width: 100%;
     margin-top: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
+    margin-left: 60px;
   }
   .home_social-icon {
     margin: 0 10px;
   }
-  .home_img {
+  .home-img {
     width: 150px;
     height: 150px;
     margin-top: -20px;
@@ -334,8 +336,10 @@ img {
   .home_social {
     width: 100%;
     margin-top: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     justify-content: center;
+    margin-left: 30px;
   }
   .home_social-icon {
     margin: 0 10px;
@@ -346,7 +350,7 @@ img {
     width: 50%;
     height: 50%;
   }
-  .home_img {
+  .home-img {
     width: 150px;
     height: 150px;
     margin-top:-30px;
@@ -371,12 +375,13 @@ img {
     text-align: right;
     margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 0px;
   }
   .home_social-icon {
     margin-left: 10px;
   }
-  .home_img {
+  .home-img {
     width: 300px;
     height: 300px;
     margin-right: 50px;
