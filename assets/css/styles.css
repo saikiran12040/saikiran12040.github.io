@@ -876,7 +876,8 @@ img {
 }
 
 .project-tech-stack {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
   justify-content: center;
   align-items: center;
   margin: 10px 0;
@@ -1049,4 +1050,22 @@ img {
     display:flex;
     padding-top:5px ;
   }
+}
+
+
+
+
+/* tech stacks of project  */
+
+h4 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-style:italic;
 }
