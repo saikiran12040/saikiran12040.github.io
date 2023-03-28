@@ -77,6 +77,7 @@ h1,
 h2,
 p {
   margin: 0;
+  color: #fff;
 }
 
 ul {
@@ -115,7 +116,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: #fff;
+  background: #00151f;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -450,9 +451,10 @@ img {
 
 /* Container for skills section */
 #skills {
-  background-color: #f4f4f4;
+  background-color: #00151f;
   padding: 50px;
   border-radius: 10px;
+  opacity: 0.8;
 }
 
 /* Title for skills section */
@@ -848,7 +850,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: rgb(136, 12, 95);
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
@@ -1069,3 +1071,91 @@ h6 {
   padding: 0;
   font-style:italic;
 }
+
+
+
+/* dark and night mode  */
+body{
+  transition:0.5s;
+  background:#00151f;
+}
+
+/* body.night{
+  background:#00151f;
+}
+.toggle{
+  position:absolute;
+  top:9px;
+  right:10px;
+  background:#fff;
+  border:2px solid #00151f;
+  height :20px;
+  width:40px;
+  cursor:pointer;
+  border-radius:30px;
+  transition:0.5s;
+}
+
+.toggle.active{
+  background:#00151f;
+  border:2px solid #fff;
+}
+
+.toggle:before{
+  content:'';
+  position:absolute;
+  top:1.3px;
+  left:2px;
+  width:14px;
+  height:14px;
+  background:#00151f;
+  border-radius:100%;
+  transition:0.5s;
+}
+
+.toggle.active:before{
+  left:19px;
+  background:#fff;
+}
+
+.content{
+  transition:0.5s;
+}
+
+body.night .content{
+  color:#fff;
+} */
+
+.header{
+  color:#00151f;
+}
+
+h3{
+  color:#fff;
+}
+h5{
+  color:#fff;
+}
+h6{
+  color:#fff;
+}
+h4{
+  color:#fff;
+}
+
+
+/* background design  */
+/* 
+#particle-js{
+  height:100%;
+  background:#00151f;
+  opacity:0.1;
+} */
+
+/* #particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+} */
