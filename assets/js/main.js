@@ -32,3 +32,7 @@ navLink.forEach(n=>n.classList.remove('active'))
     GitHubCalendar(".calendar", "saikiran12040", { responsive: true });
 
     
+const displayfun=function(){
+    window.open('https://drive.google.com/file/d/1Cg98SSVoFs4gcIaVLNvjFw59TQY0__O0/view?usp=sharing','_blank')
+}
+
