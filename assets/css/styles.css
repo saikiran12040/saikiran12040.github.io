@@ -575,12 +575,18 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0px;
   }
   .stats > div {
     width: 90%;
     margin-bottom: 30px;
   }
 }
+.stats > div {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 
 /* Tablets */
 /* @media screen and (min-width: 768px) and (max-width: 1023px) {
