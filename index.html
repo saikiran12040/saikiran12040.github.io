@@ -52,11 +52,13 @@
                         </a>
                     </li>
                     <li class="nav_items">
-                        <a class="nav_link nav-link resume" onclick="displayfun()"
-                            href="./downloads/Sai-Kiran-Resume.pdf" 
-                            target="_blank" download id="resume-link-1" style="color:#fff;">
-                            <i class="uil uil-file-download-alt nav_icon"></i>Resume
-                        </a>
+                        <button id="id=" resume-button-1"">
+                            <a class="nav_link nav-link resume" onclick="displayfun()"
+                                href="./downloads/Sai-Kiran-Resume.pdf" target="_blank" download id="resume-link-1"
+                                style="color:#fff;">
+                                <i class="uil uil-file-download-alt nav_icon"></i>Resume
+                            </a>
+                        </button>
 
                     </li>
                 </ul>
@@ -99,19 +101,22 @@
                             Hi,<br />I'm <span class="home_title-color" id="user-detail-name">Sai Kiran</span>
                             <h3 data-aos="fade-down" data-aos-delay="300">Full Stack Web Developer</h3>
                             <div>
-                                <p style="font-size:15px;" id="user-detail-intro" data-aos="fade-down"
+                                <p style="font-size:15px;" id="user-detail-intro1" data-aos="fade-down"
                                     data-aos-delay="350">
                                     An
                                     aspiring Full Stack Web Developer skilled in MERN.Proficient in HTML, CSS, and
                                     JavaScript with possessing experience in building full-stack Web applications
                                     using
                                     reactJS,NodeJs and MongoDB.</p>
+                                    
                             </div>
 
                         </h1>
                         <!-- <h6></h6> -->
-                        <a href="./downloads/Sai-Kiran-Resume.pdf" onclick="displayfun()"
-                            class="button" target="_blank" download id="resume-link-2">Resume</a>
+                        <button id="resume-button-2">
+                            <a href="./downloads/Sai-Kiran-Resume.pdf" onclick="displayfun()" class="button"
+                                target="_blank" download id="resume-link-2">Resume</a>
+                        </button>
                         <div class="home_social">
                             <a href="https://www.linkedin.com/in/saikiranconnect" id="contact-linkedin"
                                 class="home_social-icon">
@@ -239,14 +244,21 @@
                                 Mini
                                 Projects , 📚300+ Hours Data Structures & Algorithms.
                             </p>
+                            <p style="font-size:15px;" id="user-detail-intro" data-aos="fade-down"
+                                    data-aos-delay="350">
+                                    An
+                                    aspiring Full Stack Web Developer skilled in MERN.Proficient in HTML, CSS, and
+                                    JavaScript with possessing experience in building full-stack Web applications
+                                    using
+                                    reactJS,NodeJs and MongoDB.</p>
                         </div>
                     </div>
                 </section>
                 <!-- SKILLS SECTION  -->
-                <section class="skills section" id="skills">
-                    <h2 class="section-title skills-card-name" data-aos="fade-down">Technical Skills</h2>
+                <section class="skills section skills-card" id="skills">
+                    <h2 class="section-title" data-aos="fade-down">Technical Skills</h2>
                     <div id="skillsicon">
-                        <div class="skill-column skills-card">
+                        <div class="skill-column skills-card-name">
                             <h3 class="skill-title" data-aos="fade-down" data-aos-delay="250">Frontend Skills</h3>
                             <div class="skill-icon" data-aos="fade-down" data-aos-delay="300"><img
                                     class="skills-card-img" src="./assets/img/html2.png" /></div>
@@ -259,7 +271,7 @@
                             <div class="skill-icon" data-aos="fade-down" data-aos-delay="500"><img
                                     class="skills-card-img" src="./assets/img/typescript2.png" /></div>
                         </div>
-                        <div class="skill-column skills-card">
+                        <div class="skill-column skills-card-name">
                             <h3 class="skill-title " data-aos="fade-down" data-aos-delay="250">Backend Skills</h3>
                             <div class="skill-icon" data-aos="fade-down" data-aos-delay="300"><img
                                     class="skills-card-img" src="./assets/img/nodejs2.png" /></div>
@@ -268,7 +280,7 @@
                             <div class="skill-icon" data-aos="fade-down" data-aos-delay="400"><img
                                     class="skills-card-img" src="./assets/img/mongodb2.png" /></div>
                         </div>
-                        <div class="skill-column skills-card">
+                        <div class="skill-column skills-card-name">
                             <h3 class="skill-title " data-aos="fade-down" data-aos-delay="250">Tools</h3>
                             <div class="skill-icon" data-aos="fade-down" data-aos-delay="300"><img
                                     class="skills-card-img" src="./assets/img/redux2.png" /></div>
